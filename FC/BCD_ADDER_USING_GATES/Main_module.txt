@@ -1,0 +1,72 @@
+module  BCD_Adder(in_1,in_2,out_1);
+  input [11:0]in_1,in_2;
+  output [15:0]out_1;
+  
+  //definim variabile auxiliare pentru stocarea temporara a datelor , carry si factorul de corectie ce ia valoarea 0000 sau 0110
+
+wire cout,c1,c2,c3; 
+  wire [3:0] cfact,cfact1,cfact2,cfact3;
+  wire [15:0]aux,aux1;
+  wire t1,t2,t3;
+    
+  //pentru fiecare cifra avem  o chemare a modulului de adunare si corectie( cu exceptia ultimei cifre ce poate lua maxim valoarea 1 pe bitul 0;
+
+full_adder cifra1(in_1[3:0], in_2[3:0], aux[3:0], 1'b0, cout,cfact[3:0]);
+
+corectie c1cor(aux[3:0],cfact[3:0],out_1[3:0],1'b0,t1);
+
+//folosim un sau intre carry out de dupa adunare si de dupa corectie pentru a include toate cazurile ce necesita corectia
+
+full_adder cifra2(in_1[7:4],in_2[7:4],aux[7:4],t1 | cout ,c1,cfact1[3:0]);
+corectie c2cor(aux[7:4],cfact1[3:0],out_1[7:4],1'b0,t2);
+
+full_adder cifra3(in_1[11:8],in_2[11:8],aux[11:8],t2| c1, c2,cfact2[3:0]);
+corectie c3cor(aux[11:8],cfact2[3:0],out_1[11:8],1'b0,t3);
+
+corectie caz_extra(4'b0,4'b0,out_1[15:12],t3 | c2);
+endmodule
+
+module full_adder(in1,in2,out1,c_in,c_out,corr_factor);
+     input [3:0]in1, in2;
+     input c_in;
+     output [3:0]out1;
+     output  c_out;
+     wire c1,c2,c3;
+    output [3:0]corr_factor;
+    
+//modulul de adunare o face direct pe 4 biti, iar la final mai returneaza si valoarea de corectie in caz de necesitate
+
+   assign out1[0] = in1[0] ^ in2[0] ^ c_in;
+       assign c1 = ((in1[0] ^ in2[0]) & c_in) | (in1[0] & in2[0]);
+     assign out1[1] = in1[1] ^ in2[1] ^ c1;
+       assign c2 = ((in1[1] ^ in2[1]) & c1) | (in1[1] & in2[1]);
+     assign out1[2] = in1[2] ^ in2[2] ^ c2;
+       assign c3 = ((in1[2] ^ in2[2]) & c2) | (in1[2] & in2[2]);
+     assign out1[3] = in1[3] ^ in2[3] ^ c3;
+       assign c_out = ((in1[3] ^ in2[3]) & c3) | (in1[3] & in2[3]) ;
+
+    assign corr_factor[0] = 0;
+    assign corr_factor[3] = 0;
+        assign corr_factor[1] = (c_out | ((out1[2] & out1[3]) | (out1[1] & out1[3]))) ;
+        assign corr_factor[2] = (c_out | ((out1[2] & out1[3]) | (out1[1] & out1[3]))) ;
+        
+endmodule
+module corectie(in1,in2,out_1,c_in,c_out);
+     input [3:0]in1, in2;
+     input c_in;
+     output [3:0]out_1;
+output c_out;
+     wire c1,c2,c3;
+     
+//modulul de corectie face o adunare intre suma anterioara si numarul de corectie
+
+   assign out_1[0] = in1[0] ^ in2[0] ^ c_in;
+       assign c1 = ((in1[0] ^ in2[0]) & c_in) | (in1[0] & in2[0]);
+     assign out_1[1] = in1[1] ^ in2[1] ^ c1;
+       assign c2 = ((in1[1] ^ in2[1]) & c1) | (in1[1] & in2[1]);
+     assign out_1[2] = in1[2] ^ in2[2] ^ c2;
+       assign c3 = ((in1[2] ^ in2[2]) & c2) | (in1[2] & in2[2]);
+     assign out_1[3] = in1[3] ^ in2[3] ^ c3;
+       assign c_out = ((in1[3] ^ in2[3]) & c3) | (in1[3] & in2[3]);
+
+endmodule
