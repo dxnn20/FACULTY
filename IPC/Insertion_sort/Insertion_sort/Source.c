@@ -84,8 +84,6 @@ void insertionSortV2(int *a, int length) {
 		*(a + j + 1) = key;
 	}
 
-	
-
 }
 
 void forgotTheNameSort(int *a, int length) {
