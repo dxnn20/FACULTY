@@ -1,0 +1,4 @@
+﻿  Source.c
+c:\users\turut\onedrive\desktop\uni\faculty\faculty\sda\header_files_sorting_and_searching\header_files_sorting_and_searching\complexnr.h(14): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\turut\onedrive\desktop\uni\faculty\faculty\sda\header_files_sorting_and_searching\header_files_sorting_and_searching\source.c(8): warning C4101: 'aux': unreferenced local variable
+  header_files_sorting_and_searching.vcxproj -> C:\Users\turut\OneDrive\Desktop\UNI\FACULTY\FACULTY\SDA\header_files_sorting_and_searching\Debug\header_files_sorting_and_searching.exe

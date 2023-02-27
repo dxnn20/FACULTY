@@ -1,5 +1,1 @@
-﻿  Source.c
-c:\users\turut\source\repos\sda 21.02.2023\sda 21.02.2023\source.c(28): warning C4018: '<': signed/unsigned mismatch
-c:\users\turut\source\repos\sda 21.02.2023\sda 21.02.2023\source.c(38): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
-c:\users\turut\source\repos\sda 21.02.2023\sda 21.02.2023\source.c(50): warning C4047: '=': 'FILE *' differs in levels of indirection from 'int'
-  SDA 21.02.2023.vcxproj -> C:\Users\turut\source\repos\SDA 21.02.2023\Debug\SDA 21.02.2023.exe
+﻿  SDA 21.02.2023.vcxproj -> C:\Users\turut\OneDrive\Desktop\UNI\FACULTY\FACULTY\SDA\SDA 21.02.2023\Debug\SDA 21.02.2023.exe

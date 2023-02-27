@@ -1,148 +1,148 @@
 Nume: Turuta
 Prenume: Alex
-Salariu:2982
+Salariu:4673
+------------
+Nume: Turuta
+Prenume: Alex
+Salariu:4661
 ------------
 Nume: Tamari
-Prenume: Marcel
-Salariu:1452
-------------
-Nume: Turuta
 Prenume: Ion
-Salariu:1120
-------------
-Nume: Turuta
-Prenume: Georgiana
-Salariu:1889
-------------
-Nume: Alexandrescu
-Prenume: Daniel
-Salariu:3219
-------------
-Nume: Alexandrescu
-Prenume: Ion
-Salariu:4293
-------------
-Nume: Mihailescu
-Prenume: Alex
-Salariu:3395
-------------
-Nume: Alexandrescu
-Prenume: Marcel
-Salariu:3820
-------------
-Nume: Tamari
-Prenume: Marcel
-Salariu:4154
-------------
-Nume: Turuta
-Prenume: Daniel
-Salariu:1878
-------------
-Nume: Mihailescu
-Prenume: Marcel
-Salariu:1657
-------------
-Nume: Turuta
-Prenume: Alex
-Salariu:1246
-------------
-Nume: Georgescu
-Prenume: Ion
-Salariu:1941
-------------
-Nume: Alexandrescu
-Prenume: Daniel
-Salariu:4107
-------------
-Nume: Turuta
-Prenume: Alex
-Salariu:3369
-------------
-Nume: Georgescu
-Prenume: Daniel
-Salariu:4256
-------------
-Nume: Turuta
-Prenume: Alex
-Salariu:4877
-------------
-Nume: Alexandrescu
-Prenume: Marcel
-Salariu:3147
+Salariu:1391
 ------------
 Nume: Mihailescu
 Prenume: Georgiana
-Salariu:3686
+Salariu:2672
 ------------
-Nume: Mihailescu
+Nume: Alexandrescu
+Prenume: Ion
+Salariu:1816
+------------
+Nume: Turuta
 Prenume: Daniel
-Salariu:4036
+Salariu:3910
+------------
+Nume: Turuta
+Prenume: Marcel
+Salariu:2349
+------------
+Nume: Tamari
+Prenume: Marcel
+Salariu:2224
+------------
+Nume: Alexandrescu
+Prenume: Ion
+Salariu:4831
+------------
+Nume: Turuta
+Prenume: Daniel
+Salariu:3328
+------------
+Nume: Tamari
+Prenume: Daniel
+Salariu:4648
+------------
+Nume: Tamari
+Prenume: Daniel
+Salariu:4631
+------------
+Nume: Georgescu
+Prenume: Ion
+Salariu:1803
 ------------
 Nume: Turuta
 Prenume: Ion
-Salariu:2509
+Salariu:1963
+------------
+Nume: Georgescu
+Prenume: Daniel
+Salariu:3001
+------------
+Nume: Mihailescu
+Prenume: Ion
+Salariu:3993
+------------
+Nume: Georgescu
+Prenume: Ion
+Salariu:3738
+------------
+Nume: Mihailescu
+Prenume: Daniel
+Salariu:3967
+------------
+Nume: Turuta
+Prenume: Daniel
+Salariu:3211
+------------
+Nume: Tamari
+Prenume: Alex
+Salariu:2929
+------------
+Nume: Georgescu
+Prenume: Daniel
+Salariu:4338
+------------
+Nume: Tamari
+Prenume: Daniel
+Salariu:3046
+------------
+Nume: Tamari
+Prenume: Daniel
+Salariu:3796
+------------
+Nume: Mihailescu
+Prenume: Alex
+Salariu:4015
+------------
+Nume: Turuta
+Prenume: Georgiana
+Salariu:1656
+------------
+Nume: Mihailescu
+Prenume: Ion
+Salariu:1331
+------------
+Nume: Turuta
+Prenume: Marcel
+Salariu:2132
+------------
+Nume: Alexandrescu
+Prenume: Daniel
+Salariu:2055
+------------
+Nume: Mihailescu
+Prenume: Marcel
+Salariu:3668
+------------
+Nume: Mihailescu
+Prenume: Daniel
+Salariu:1346
+------------
+Nume: Turuta
+Prenume: Alex
+Salariu:4908
+------------
+Nume: Mihailescu
+Prenume: Ion
+Salariu:3735
+------------
+Nume: Alexandrescu
+Prenume: Georgiana
+Salariu:2148
+------------
+Nume: Tamari
+Prenume: Daniel
+Salariu:2641
+------------
+Nume: Mihailescu
+Prenume: Ion
+Salariu:4065
+------------
+Nume: Georgescu
+Prenume: Ion
+Salariu:4120
 ------------
 Nume: Georgescu
 Prenume: Georgiana
-Salariu:1839
-------------
-Nume: Turuta
-Prenume: Marcel
-Salariu:1764
-------------
-Nume: Tamari
-Prenume: Marcel
-Salariu:1801
-------------
-Nume: Mihailescu
-Prenume: Daniel
-Salariu:2155
-------------
-Nume: Alexandrescu
-Prenume: Alex
-Salariu:1091
-------------
-Nume: Turuta
-Prenume: Marcel
-Salariu:3741
-------------
-Nume: Georgescu
-Prenume: Daniel
-Salariu:4757
-------------
-Nume: Alexandrescu
-Prenume: Ion
-Salariu:3859
-------------
-Nume: Mihailescu
-Prenume: Daniel
-Salariu:2139
-------------
-Nume: Georgescu
-Prenume: Ion
-Salariu:4515
-------------
-Nume: Georgescu
-Prenume: Daniel
-Salariu:1486
-------------
-Nume: Tamari
-Prenume: Daniel
-Salariu:3606
-------------
-Nume: Georgescu
-Prenume: Marcel
-Salariu:4440
-------------
-Nume: Alexandrescu
-Prenume: Daniel
-Salariu:3592
-------------
-Nume: Mihailescu
-Prenume: Alex
-Salariu:3866
-------------
-Nume: Alexandrescu
-Prenume: Marcel
-Salariu:3027
+Salariu:2398
 ------------
