@@ -1,0 +1,4 @@
+﻿  Source.c
+c:\users\turut\onedrive\desktop\uni\faculty\faculty\sda\07.03.2023 (unions)\07.03.2023 (unions)\source.c(52): warning C4474: 'printf' : too many arguments passed for format string
+  c:\users\turut\onedrive\desktop\uni\faculty\faculty\sda\07.03.2023 (unions)\07.03.2023 (unions)\source.c(52): note: placeholders and their parameters expect 6 variadic arguments, but 7 were provided
+  07.03.2023 (Unions).vcxproj -> C:\Users\turut\OneDrive\Desktop\UNI\FACULTY\FACULTY\SDA\07.03.2023 (Unions)\Debug\07.03.2023 (Unions).exe
