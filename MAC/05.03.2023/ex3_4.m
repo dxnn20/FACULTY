@@ -1,6 +1,6 @@
 close all;
 clc;
-p = 9;
+p = 7;
 r = rem(p,3);
 col = 0:0.1:r+1;
 
@@ -26,10 +26,6 @@ switch r
         x1.Color = 'b';
         x2.Color = 'b';
         x3.Color = 'b';
-    case 3
-        x.Color = 'm';
-        x1.Color = 'm';
-        x2.Color = 'm';
-        x3.Color = 'm';
+  
 end
 

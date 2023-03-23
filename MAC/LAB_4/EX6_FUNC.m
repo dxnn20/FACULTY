@@ -1,7 +1,7 @@
 function [] = EX6_FUNC(matrice_coef,matrice_termeni)
 rang = rank(matrice_coef)
 rang_extins = rank([matrice_coef matrice_termeni])
-[x,y] = size(matrice_termeni);
+[x,~] = size(matrice_termeni);
 
 if rang == rang_extins && x == rang
 disp("Sistem compatibil determinat");

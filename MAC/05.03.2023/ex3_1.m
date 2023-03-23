@@ -18,6 +18,7 @@ x4 = -3:0.01:3;
 y4 = (sin(pi.*x4)).*cos(pi.*x4);
 x5  = -3:0.01:3;
 y5 =sin(pi.*x5+1).*cos(pi.*x5+1);
+
 figure 
 hold on
 plot(x4,y4,'--',"Color",'m');

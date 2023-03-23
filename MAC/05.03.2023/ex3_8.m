@@ -2,7 +2,7 @@ clc
 tic
 close all
 
-[x1,y1] = meshgrid(-3:0.1:3);
+[x1,y1] = meshgrid(-3:0.15:3);
 
 z1 = ex3_8fun(x1,y1);
 
