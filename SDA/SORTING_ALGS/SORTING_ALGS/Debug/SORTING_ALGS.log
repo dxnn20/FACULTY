@@ -1,3 +1,4 @@
 ﻿  Source.c
 c:\users\turut\onedrive\desktop\uni\faculty\faculty\sda\sorting_algs\sorting_algs\source.c(68): warning C4101: 'aux': unreferenced local variable
+  LINK : C:\Users\turut\OneDrive\Desktop\UNI\FACULTY\FACULTY\SDA\SORTING_ALGS\Debug\SORTING_ALGS.exe not found or not built by the last incremental link; performing full link
   SORTING_ALGS.vcxproj -> C:\Users\turut\OneDrive\Desktop\UNI\FACULTY\FACULTY\SDA\SORTING_ALGS\Debug\SORTING_ALGS.exe

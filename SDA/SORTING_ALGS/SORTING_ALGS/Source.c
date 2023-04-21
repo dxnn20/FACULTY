@@ -65,7 +65,7 @@ void selectionSort(int *a, int n) {
 
 void shakerSort(int *a, int n)
 {
-	int  j, k, s, d, aux, count = 1;
+	int  j, k, s, d, count = 1;
 	s = 1;
 	d = n - 1;
 	k = n - 1;
@@ -124,7 +124,6 @@ void radixSortD(int *a, int n) {
 	printf("\n");
 }
 
-
 int main() {
 	int *a, length;
 	enum optiuni opt;
@@ -134,7 +133,8 @@ int main() {
 		printf("1. Insertion sort\n");
 		printf("2. Selection sort\n");
 		printf("3. Shaker sort\n");
-		printf("4. Direct Radix sort");
+		printf("4. Direct Radix sort\n");
+		printf("5. \n");
 
 		scanf_s("%d", &opt);
 		
