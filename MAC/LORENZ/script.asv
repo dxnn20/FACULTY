@@ -1,0 +1,9 @@
+close all,clc
+
+
+beta = [10 ; 28; 3];
+x0 =[0; 1; 0];
+dt = 0.01;
+
+tspan = dt:dt:100;
+[t,x ]
