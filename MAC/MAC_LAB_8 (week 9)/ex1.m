@@ -6,7 +6,6 @@ y = [1, 4, 9, 16,25];
 xi = [6 ,7,8,9,0];
 yi = ex1_func(x, y, xi);
 
-
 plot(x, y, 'bo',x,y,'--r');
 hold on
 plot(xi, yi, 'ro');

@@ -5,7 +5,7 @@ beta = [10 ; 28; 8/3];
 x0 = [0; 1; 0];
 dt = 0.1;
 
-tspan = [0, 100];
+tspan = [0, 1000];
 
 [t,x] = ode45(@(t,x) f1(t,x,beta), tspan, x0);
 
