@@ -5,11 +5,11 @@ close all
 
 x = [0,1,2,3,4,5,6]
 y = [15, 30,75 ,60 ,60,40,55]
-xi =[ 0.5,3.2,5.7]
+xi = 0:1:100;
 
 fprintf("Linear:\n")
 yi= interp1(x,y,xi,'linear')
-plot(x,y,'bo',xi,yi,'ro',x,y)
+plot(xi,yi,'--',x,y,'ro')
 legend('known points','approximated points')
 title('Linear')
 
